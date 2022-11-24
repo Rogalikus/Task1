@@ -1,0 +1,130 @@
+.Flags {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.Ukraine {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  outline: auto;
+  outline-style: solid;
+}
+.PartUkr1 {
+  width: 300px;
+  height: 150px;
+  background-color: blue;
+}
+.PartUkr2 {
+  height: 150px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.Japan {
+  width: 300px;
+  height: 300px;
+  outline: auto;
+  outline-style: solid;
+  margin-bottom: 100px;
+}
+.PartJap1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+.PartJap2 {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.Island {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+  outline: auto;
+  outline-style: solid;
+}
+.PartIsl1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+.White1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  margin-right: 100px;
+}
+.White2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+}
+.Red1 {
+  height: 100%;
+  width: 45%;
+  background-color: red;
+  z-index: 100;
+}
+.Red2 {
+  height: 45%;
+  width: 100%;
+  background-color: red;
+}
+
+.Czech {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.CzechPart {
+  position: relative;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  outline: auto;
+  outline-style: solid;
+}
+
+.CzechPart:before {
+  content: "";
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  background-color: #d80c13;
+  bottom: 0;
+}
+.CzechPart:after {
+  content: "";
+  width: 0%;
+  height: 0%;
+  position: absolute;
+  border-top: 150px solid transparent;
+  border-bottom: 150px solid transparent;
+  border-left: 150px solid #08437f;
+  margin: 00px auto 0;
+}
